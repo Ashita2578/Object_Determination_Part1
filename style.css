@@ -1,0 +1,22 @@
+canvas{
+    border:5px solid white;
+    border-radius: 15px;
+    animation-name: example;
+    animation-duration: 2s;
+    margin-top: 60px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 40px rgb(251, 255, 0) ;
+    }
+    to{
+        box-shadow: 1px 1px 40px rgb(255, 0, 136);
+    }
+}
+body{
+    background:url("https://wallpaperaccess.com/full/501338.jpg");
+}
+h1{
+    color:chartreuse;
+}
